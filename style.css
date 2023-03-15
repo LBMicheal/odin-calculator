@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.display {
+  background: lightcoral;
+  text-align: right;
+  font-size: 36px;
+  width: 6em;
+  height: 1em;
+  margin: 6px;
+}
+
+button {
+  width: 2em;
+  height: 2em;
+  margin: 2px;
+}
+
+#equal,
+#clear {
+  width: 4em;
+  margin-left: 4px;
+  margin-right: 8px;
+}
